@@ -33,4 +33,4 @@ soup  = BeautifulSoup(response.text, 'html.parser')
 
 # Ou avec plus de précision
 images = soup.find_all('article', class_="product_pod")
-pprint(images) 
+pprint(images)  
